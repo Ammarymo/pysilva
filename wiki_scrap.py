@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://en.wikipedia.org/wiki/Penis"
+url = input("your wiki URL")
 response = requests.get(url)
 soup = BeautifulSoup(response.text, "html.parser")
 #mw-parser-output
