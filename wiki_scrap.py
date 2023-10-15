@@ -15,7 +15,7 @@ text = ""
 for p in content:
   text += p.text
 
-#todo- send this text to openAI and return a summary
+#todo- send this text to openAI and return a summary(I don't have their API)
 
 refs = soup.find_all("ol", {"class": "references"})
 for ref in refs:
