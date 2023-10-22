@@ -29,6 +29,5 @@ def plot_walks(num,walk_steps):
         plt.legend(loc="lower left")
     plt.show()
 
-plot_walks(5,100)
 
 
